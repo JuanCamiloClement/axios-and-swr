@@ -2,7 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import axios from './utils';
 
-const GetAxios = () => {
+const AxiosExample = () => {
   const [ users, setUsers ] = useState([]);
   const [ post, setPost ] = useState({});
   const [ lastPost, setLastPost ] = useState({});
@@ -61,4 +61,4 @@ const GetAxios = () => {
   )
 }
 
-export default GetAxios;
+export default AxiosExample;
